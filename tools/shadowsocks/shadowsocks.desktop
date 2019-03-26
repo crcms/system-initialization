@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=V3.0.0alpha
+Encoding=UTF-8
+Name=shadowsocks-qt5
+Comment=shadowsocks qt application
+Icon=/opt/shadowsocks/shadowsocksqt5.png
+Exec=/opt/shadowsocks/Shadowsocks-Qt5-3.0.1-x86_64.AppImage
+Terminal=false
+StartupNotify=true
+Categories=Internet
+MimeType=application/shadowsocks
