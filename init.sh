@@ -33,8 +33,8 @@ tar zxvf la-capitaine-icon.tra.gz ./
 # Ubuntu18.04 使用[Dash to dock]插件时同时出现两个dock的问题
 # 解决方法是去tweak设置里关闭[Dash to dock]的开关，别担心，关闭后，[Dash to dock]仍然正常工作，但是再也不会同时出现两个dock栏的尴尬情况了。
 # TopIcons
-wget https://extensions.gnome.org/extension-data/TopIcons%40phocean.net.v22.shell-extension.zip -O TopIcons.zip
-unzip TopIcons.zip
+#wget https://extensions.gnome.org/extension-data/TopIcons%40phocean.net.v22.shell-extension.zip -O TopIcons.zip
+#unzip TopIcons.zip
 #sudo apt-get install make && sudo make install
 
 
