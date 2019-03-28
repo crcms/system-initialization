@@ -55,7 +55,7 @@ sudo dpkg -i weichat.deb
 wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.baidu.pan/deepin.com.baidu.pan_5.7.3deepin0_i386.deb -O pan.deb
 sudo dpkg -i pan.deb
 # 徾信
-wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb -O xunlei.deb
+wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb -O xunlei.deb -O xunlei.deb
 sudo dpkg -i xunlei.deb
 
 ############# 输入法 ######################
@@ -71,7 +71,7 @@ sudo apt-get install fcitx-table-wubi
 ############# oh my zsh ######################
 sudo apt-get install -y curl zsh
 zsh --version
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
 echo $SHELL
 cd ~
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
