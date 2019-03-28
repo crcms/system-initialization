@@ -22,6 +22,8 @@ sudo apt-get update
 sudo apt-get install -y gnome-tweak-tool
 sudo apt-get install -y gnome-shell-extensions
 sudo apt-get install -y gnome-shell-extension-dashtodock
+sudo apt-get install -y gnome-shell-extension-top-icons-plus
+sudo apt-get install -y sudo apt install chrome-gnome-shell
 wget https://dl.opendesktop.org/api/files/download/id/1523902544/s/ede5bc5c844b290e6e136ca68ae22cb2b72575769e1e9e6488acbfb3979c31b92fe01e8403fafe485a6c4c6f1b4a2fd1cd81806b455d6ffb613aac886ab9755d/t/1553693498/u//X-Arc-Collection-v1.4.9.zip -O X-Arc-Collection.zip
 unzip X-Arc-Collection.zip
 # cp /usr/share/themes
@@ -55,7 +57,7 @@ sudo dpkg -i weichat.deb
 wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.baidu.pan/deepin.com.baidu.pan_5.7.3deepin0_i386.deb -O pan.deb
 sudo dpkg -i pan.deb
 # 徾信
-wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb -O xunlei.deb -O xunlei.deb
+wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb -O xunlei.deb
 sudo dpkg -i xunlei.deb
 
 ############# 输入法 ######################
