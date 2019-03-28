@@ -7,10 +7,10 @@ sudo apt-get update
 sudo apt-get install -y vim
 
 ############# zip ######################
-sudo apt-get install unzip
+sudo apt-get install -y unzip
 
 ############# git ######################
-sudo apt-get intall -y git
+sudo apt-get install -y git
 
 ############# gitkraken ######################
 wget https://release.axocdn.com/linux/gitkraken-amd64.deb -O gitkraken.deb
@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install -y gnome-tweak-tool
 sudo apt-get install -y gnome-shell-extensions
 sudo apt-get install -y gnome-shell-extension-dashtodock
-wget https://dl.opendesktop.org/api/files/download/id/1523902544/s/ede5bc5c844b290e6e136ca68ae22cb2b72575769e1e9e6488acbfb3979c31b92fe01e8403fafe485a6c4c6f1b4a2fd1cd81806b455d6ffb613aac886ab9755d/t/1553693498/u//X-Arc-Collection-v1.4.9.zip X-Arc-Collection.zip
+wget https://dl.opendesktop.org/api/files/download/id/1523902544/s/ede5bc5c844b290e6e136ca68ae22cb2b72575769e1e9e6488acbfb3979c31b92fe01e8403fafe485a6c4c6f1b4a2fd1cd81806b455d6ffb613aac886ab9755d/t/1553693498/u//X-Arc-Collection-v1.4.9.zip -O X-Arc-Collection.zip
 unzip X-Arc-Collection.zip
 # cp /usr/share/themes
 wget https://github.com/keeferrourke/la-capitaine-icon-theme/archive/v0.6.1.tar.gz -O la-capitaine-icon.tra.gz
