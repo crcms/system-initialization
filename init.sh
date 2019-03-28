@@ -69,7 +69,7 @@ sudo apt-get install fcitx-table-wubi
 
 
 ############# oh my zsh ######################
-sudo apt-get install -y zsh
+sudo apt-get install -y curl zsh
 zsh --version
 sudo chsh -s $(which zsh)
 echo $SHELL
