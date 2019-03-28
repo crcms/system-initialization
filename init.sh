@@ -131,6 +131,7 @@ sudo chmod +x Go*/bin/goland.sh
 shadowsocks_path=/opt/shadowsocks
 sudo cp -r ./tools/shadowsocks /opt
 sudo chmod +x ${shadowsocks_path}/Shadowsocks-Qt5-3.0.1-x86_64.AppImage
+sudo cp ${shadowsocks_path}/shadowsocks.desktop /usr/share/applications
 sudo apt-get install -y python-pip
 sudo pip install -U genpac
 genpac --proxy="SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" -o autoproxy.pac --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
