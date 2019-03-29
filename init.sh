@@ -60,6 +60,9 @@ sudo dpkg -i pan.deb
 wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/deepin.com.thunderspeed_7.10.35.366deepin18_i386.deb -O xunlei.deb
 sudo dpkg -i xunlei.deb
 
+# deepin-terminal
+sudo apt-get install deepin-terminal
+
 ############# 输入法 ######################
 # 搜索拼音
 wget http://cdn2.ime.sogou.com/dl/index/1524572264/sogoupinyin_2.2.0.0108_amd64.deb -O suogoupingyin.deb
