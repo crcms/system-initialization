@@ -61,6 +61,7 @@ wget http://mirrors.aliyun.com/deepin/pool/non-free/d/deepin.com.thunderspeed/de
 sudo dpkg -i xunlei.deb
 
 # deepin-terminal
+sudo apt-get install zssh
 sudo apt-get install deepin-terminal
 
 ############# 输入法 ######################
