@@ -20,12 +20,13 @@ sudo dpkg -i gitkraken.deb
 ############# mac skin ######################
 sudo apt-get update
 sudo apt-get install -y gnome-tweak-tool gnome-shell-extensions gnome-shell-extension-dashtodock gnome-shell-extension-top-icons-plus chrome-gnome-shell
+# 安装GTK3主题
 wget https://dl.opendesktop.org/api/files/download/id/1523902544/s/ede5bc5c844b290e6e136ca68ae22cb2b72575769e1e9e6488acbfb3979c31b92fe01e8403fafe485a6c4c6f1b4a2fd1cd81806b455d6ffb613aac886ab9755d/t/1553693498/u//X-Arc-Collection-v1.4.9.zip -O X-Arc-Collection.zip
-unzip X-Arc-Collection.zip
-# cp /usr/share/themes
+unzip -d /usr/share/themes X-Arc-Collection.zip 
+# 下载Mac图标主题 la-capitaine-icon-theme
 wget https://github.com/keeferrourke/la-capitaine-icon-theme/archive/v0.6.1.tar.gz -O la-capitaine-icon.tra.gz
-tar zxvf la-capitaine-icon.tra.gz ./
-# cp /usr/share/icons
+tar zxvf la-capitaine-icon.tra.gz -C /usr/share/icons
+
 # 使用tweak载入shell主题 => tweak -- 外观 -- shell -- 选择Sierra shell主题
 # 使用tweak载入icon主题 => tweak -- 外观 -- 图标 -- 选择对应的图标主题
 # Ubuntu18.04 使用[Dash to dock]插件时同时出现两个dock的问题
