@@ -20,9 +20,12 @@ sudo dpkg -i gitkraken.deb
 ############# mac skin ######################
 sudo apt-get update
 sudo apt-get install -y gnome-tweak-tool gnome-shell-extensions gnome-shell-extension-dashtodock gnome-shell-extension-top-icons-plus chrome-gnome-shell
-# 安装GTK3主题
+# 安装GTK3主题或 McHigh Sierra 
+# https://github.com/vinceliuice/Sierra-gtk-theme/raw/releases/Sierra-light.tar.xz
+# https://github.com/vinceliuice/Sierra-gtk-theme/raw/releases/Sierra-dark.tar.xz
 wget https://dl.opendesktop.org/api/files/download/id/1523902544/s/ede5bc5c844b290e6e136ca68ae22cb2b72575769e1e9e6488acbfb3979c31b92fe01e8403fafe485a6c4c6f1b4a2fd1cd81806b455d6ffb613aac886ab9755d/t/1553693498/u//X-Arc-Collection-v1.4.9.zip -O X-Arc-Collection.zip
 unzip -d /usr/share/themes X-Arc-Collection.zip 
+
 # 下载Mac图标主题 la-capitaine-icon-theme
 wget https://github.com/keeferrourke/la-capitaine-icon-theme/archive/v0.6.1.tar.gz -O la-capitaine-icon.tra.gz
 tar zxvf la-capitaine-icon.tra.gz -C /usr/share/icons
@@ -136,4 +139,16 @@ sudo apt-get install -y python-pip
 sudo pip install -U genpac
 genpac --proxy="SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" -o autoproxy.pac --gfwlist-url="https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt"
 
+# bash代理，写入~/zshrc
+# proxy
+#function proxy_off() {
+#     unset all_proxy
+#     echo -e "已关闭代理"
+#}
+
+#function proxy_on() {
+#     export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com,.test"
+#     export all_proxy=socks5://127.0.0.1:1080
+#     echo -e "已开启代理"
+#}
 
